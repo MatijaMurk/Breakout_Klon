@@ -1,0 +1,15 @@
+﻿  Ball.cpp
+  BreakoutKlon.cpp
+  Brick.cpp
+  GameManager.cpp
+  GameObject.cpp
+  InfoBar.cpp
+  Level.cpp
+  PlayScreen.cpp
+  Player.cpp
+  Score.cpp
+  ScreenManager.cpp
+  StartScreen.cpp
+  Texture.cpp
+  Generating Code...
+  Breakout_Klon.vcxproj -> C:\Users\matij\source\repos\Breakout_Klon\x64\Debug\Breakout_Klon.exe

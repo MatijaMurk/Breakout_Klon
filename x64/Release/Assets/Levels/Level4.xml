@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Level
+  RowCount="7"
+  ColumnCount="15"
+  RowSpacing="5"
+  ColumnSpacing="5"
+  BrickWidth="75"
+  BrickHeight="38"
+  BackgroundTexture="BG/BG-4.png"
+  NextLevel="Assets/Levels/Level5.xml">
+
+  <BrickTypes>
+    <!-- Soft Brick -->
+    <BrickType
+      Id="S"
+      Texture="Bricks/Blue.png"
+      HitPoints="1"
+      HitSound="hit.wav"
+      BreakSound="breakBrick.wav"
+      BreakScore="50" />
+      <BrickType
+      Id="M"
+      Texture="Bricks/Green.png"
+      HitPoints="2"
+      HitSound="hit.wav"
+      BreakSound="breakBrick.wav"
+      BreakScore="100" />
+    <!-- Hard Brick -->
+    <BrickType
+      Id="H"
+      Texture="Bricks/Green.png"
+      HitPoints="3"
+      HitSound="hit.wav"
+      BreakSound="breakBrick.wav"
+      BreakScore="150" />
+    <!-- Impenetrable Brick -->
+    <BrickType
+      Id="I"
+      Texture="Bricks/Metal.png"
+      HitPoints="-1"
+      HitSound="metalHit.wav" />
+
+  </BrickTypes>
+  <Bricks>
+    SSSSSSSSSSSSSSS
+    __S__MMMMM__S__
+    H_H_H_H_H_H_H_H
+    H_____HIH_____H
+    H_H_H_H_H_H_H_H
+    __S__MMMMM__S__
+    SSSSSSSSSSSSSSS
+  </Bricks>
+</Level>
